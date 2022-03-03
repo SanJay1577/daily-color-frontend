@@ -10,7 +10,7 @@ import { HomePage } from "./HomePage";
 import { Nopage } from "./Nopage";
 
 function App() {
-const access = localStorage.getItem("token")
+
 
   return (
     <div className="App">

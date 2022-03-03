@@ -10,7 +10,7 @@ import Button from '@mui/material/Button';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import VisibilityIcon from '@mui/icons-material/Visibility';
 import VisibilityOffIcon from '@mui/icons-material/VisibilityOff';
-import { Nopage } from "./Nopage";
+
 
 export function ColorPage() {
   const history = useHistory();
@@ -20,8 +20,8 @@ const [color,setColor]= useState("");
 const [mes,setMes] = useState("");
 const [error,setError] = useState("");
 const [daily,setDaily] = useState("");
-const acces = localStorage.getItem("token")
-console.log(acces); 
+
+
 
 // useEffect(()=>{
 //   if(!acces){
